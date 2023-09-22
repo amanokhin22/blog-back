@@ -5,7 +5,6 @@ import cors from "cors";
 import {registerValidation, loginValidation, postCreateValidation} from "./validations.js";
 import {UserController, PostController} from "./controllers/index.js";
 import {checkAuth, handleValidationErrors} from "./utils/index.js";
-import {getLastTags} from "./controllers/PostController.js";
 
 mongoose
     .connect('mongodb+srv://admin:wwwwwwww@cluster0.iftkgze.mongodb.net/blog?retryWrites=true&w=majority',)
